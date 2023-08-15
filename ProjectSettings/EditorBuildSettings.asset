@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: 0c98c2bcac43e0940bfcd59b1537c833
+  - enabled: 1
+    path: Assets/Scenes/SetsumeiScene.unity
+    guid: 00a379edaedd3e1419c55c0d4ebaff89
   m_configObjects: {}
