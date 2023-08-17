@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SetsumeiScene.unity
     guid: 00a379edaedd3e1419c55c0d4ebaff89
+  - enabled: 1
+    path: Assets/Scenes/StageSelect.unity
+    guid: 25ecd7654a216c14193d152c936f18a3
   m_configObjects: {}
