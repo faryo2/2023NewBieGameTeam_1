@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
 
-public class Board : MonoBehaviour
+public class Ha : MonoBehaviour
 {
+    public int ha = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,22 +31,27 @@ public class Board : MonoBehaviour
             myTransform.position = pos;
         }
     }
+
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Chi"))
-        {
-            // 触れたobjの親を移動床にする
-            other.transform.SetParent(transform);
-        }
         if (other.gameObject.CompareTag("Ha"))
         {
             // 触れたobjの親を移動床にする
             other.transform.SetParent(transform);
+            ha = 1;
+            Debug.Log("「は」が正しく配置されたよ！！");
+        }
+        if (other.gameObject.CompareTag("Chi"))
+        {
+            // 触れたobjの親を移動床にする
+            other.transform.SetParent(transform);
+            Debug.Log("不正解！");
         }
         if (other.gameObject.CompareTag("Ya"))
         {
             // 触れたobjの親を移動床にする
             other.transform.SetParent(transform);
+            Debug.Log("不正解！");
         }
     }
 }
