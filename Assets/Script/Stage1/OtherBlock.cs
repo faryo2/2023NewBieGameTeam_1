@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
 
-public class Board : MonoBehaviour
+public class OtherBlock : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -29,24 +28,6 @@ public class Board : MonoBehaviour
             Vector3 pos = myTransform.position;
             pos.x += 2f;
             myTransform.position = pos;
-        }
-    }
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.CompareTag("Chi"))
-        {
-            // G‚ê‚½obj‚Ìe‚ğˆÚ“®°‚É‚·‚é
-            other.transform.SetParent(transform);
-        }
-        if (other.gameObject.CompareTag("Ha"))
-        {
-            // G‚ê‚½obj‚Ìe‚ğˆÚ“®°‚É‚·‚é
-            other.transform.SetParent(transform);
-        }
-        if (other.gameObject.CompareTag("Ya"))
-        {
-            // G‚ê‚½obj‚Ìe‚ğˆÚ“®°‚É‚·‚é
-            other.transform.SetParent(transform);
         }
     }
 }
