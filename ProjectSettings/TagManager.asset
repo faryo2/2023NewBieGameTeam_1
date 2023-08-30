@@ -8,6 +8,7 @@ TagManager:
   - Chi
   - Ha
   - Ya
+  - Board
   layers:
   - Default
   - TransparentFX
