@@ -33,9 +33,33 @@ EditorBuildSettings:
     path: Assets/Scenes/StageSelect.unity
     guid: 25ecd7654a216c14193d152c936f18a3
   - enabled: 1
-    path: Assets/Scenes/Omigoto.unity
+    path: Assets/Scenes/Omigoto1.unity
     guid: 2135114373ad9214eaacec5cb5444d1f
   - enabled: 1
-    path: Assets/Scenes/Munen.unity
+    path: Assets/Scenes/Omigoto2.unity
+    guid: b64fabbcc53860c4bb5ed5cac24cd615
+  - enabled: 1
+    path: Assets/Scenes/Omigoto3.unity
+    guid: 1c1cf4839c2663e448de9afff091a76e
+  - enabled: 1
+    path: Assets/Scenes/Omigoto4.unity
+    guid: ad31c1823cdd250438810a46ad03a11a
+  - enabled: 1
+    path: Assets/Scenes/Omigoto5.unity
+    guid: 00fd8f5c7e988084b8e3dbb512de59dd
+  - enabled: 1
+    path: Assets/Scenes/Munen1.unity
     guid: 9b1d1b41479d73648bf8937b4f0e6ae5
+  - enabled: 1
+    path: Assets/Scenes/Munen2.unity
+    guid: ee4160389a9a8f84fa2e2bc002d5fdda
+  - enabled: 1
+    path: Assets/Scenes/Munen3.unity
+    guid: 73c0e79770201e04c8c5ea381f4d2ecf
+  - enabled: 1
+    path: Assets/Scenes/Munen4.unity
+    guid: ab9daccfcebd1244c9882b55d3df6efc
+  - enabled: 1
+    path: Assets/Scenes/Munen5.unity
+    guid: a819c2955b33f40469e768a4ffe7c199
   m_configObjects: {}
