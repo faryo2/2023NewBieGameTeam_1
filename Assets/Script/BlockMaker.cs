@@ -22,7 +22,10 @@ public class BlockMaker : MonoBehaviour
         {
             time = 5.0f;
             number = Random.Range(0, Prefabs.Length);
-            Instantiate(Prefabs[number], new Vector3(0,10,-1), Quaternion.identity);
+            GameObject インスタンス =Instantiate(Prefabs[number], new Vector3(0,10,-1), Quaternion.identity);
+            Vector3 回転軸 = new Vector3(0, 1, 0); // Y軸を中心に回転する
+            float 目標角度 = 180f; // 180度回転
+            インスタンス.transform.Rotate(回転軸, 目標角度);
         }
     }
 }
