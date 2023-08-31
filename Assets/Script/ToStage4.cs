@@ -18,6 +18,6 @@ public class ToStage4 : MonoBehaviour
     }
     public void ToStage4Button()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("Stage 4");
     }
 }
