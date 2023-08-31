@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEditor.SceneManagement;
 
 public class Ya2 : MonoBehaviour
 {
@@ -40,6 +42,20 @@ public class Ya2 : MonoBehaviour
             other.transform.SetParent(transform);
             ya2 = 1;
             Debug.Log("「や」が正しく配置されたよ！！");
+        }
+        if (other.gameObject.CompareTag("Ha"))
+        {
+            // 触れたobjの親を移動床にする
+            other.transform.SetParent(transform);
+            Debug.Log("不正解！！");
+            SceneManager.LoadScene("Munen");
+        }
+        if (other.gameObject.CompareTag("Chi"))
+        {
+            // 触れたobjの親を移動床にする
+            other.transform.SetParent(transform);
+            Debug.Log("不正解！！");
+            SceneManager.LoadScene("Munen");
         }
     }
 }
