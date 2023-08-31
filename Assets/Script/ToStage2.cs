@@ -18,6 +18,6 @@ public class ToStage2 : MonoBehaviour
     }
     public void ToStage2Button()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Stage 2");
     }
 }
