@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEditor.SceneManagement;
 
 public class BlockManager : MonoBehaviour
 {
@@ -24,6 +26,7 @@ public class BlockManager : MonoBehaviour
         if (yb1.ya1 ==1 && yb2.ya2 ==1)
         {
             Debug.Log("ê≥âÅIÅI");
+            SceneManager.LoadScene("Omigoto");
         }
     }
 }
