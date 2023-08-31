@@ -26,7 +26,7 @@ public class BlockManager : MonoBehaviour
         if (yb1.ya1 ==1 && yb2.ya2 ==1)
         {
             Debug.Log("ê≥âÅIÅI");
-            SceneManager.LoadScene("Omigoto");
+            SceneManager.LoadScene("Omigoto2");
         }
         if (yb1.ya1 == -1 | yb2.ya2 == -1)
         {
