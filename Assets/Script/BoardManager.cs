@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEditor.SceneManagement;
 
 public class BoardManager : MonoBehaviour
 {
@@ -20,6 +22,7 @@ public class BoardManager : MonoBehaviour
         if (hb.ha ==1)
         {
             Debug.Log("ê≥âÅIÅI");
+            SceneManager.LoadScene("Omigoto");
         }
     }
 }
