@@ -28,5 +28,9 @@ public class BlockManager : MonoBehaviour
             Debug.Log("³‰ğII");
             SceneManager.LoadScene("Omigoto");
         }
+        if (yb1.ya1 == -1 | yb2.ya2 == -1)
+        {
+            SceneManager.LoadScene("Munen2");
+        }
     }
 }
