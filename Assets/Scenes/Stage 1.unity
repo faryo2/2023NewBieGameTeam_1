@@ -447,7 +447,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1123176504}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &442449315
 BoxCollider:
@@ -641,7 +641,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1123176504}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &537385205
 BoxCollider:
@@ -892,23 +892,35 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1123176504}
+    m_TransformParent: {fileID: 994927379}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 00c25db887dd2f34ba929970f01f19ee, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 00c25db887dd2f34ba929970f01f19ee, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.16933559
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 00c25db887dd2f34ba929970f01f19ee, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 00c25db887dd2f34ba929970f01f19ee, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00c25db887dd2f34ba929970f01f19ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.32000005
+      value: -0.19134921
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00c25db887dd2f34ba929970f01f19ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.48
+      value: -4.4419985
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00c25db887dd2f34ba929970f01f19ee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.4978333
+      value: -0.28999996
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00c25db887dd2f34ba929970f01f19ee, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1067,7 +1079,8 @@ Transform:
   m_LocalPosition: {x: 1.45, y: -3.2590008, z: 3.0778332}
   m_LocalScale: {x: 5.905433, y: 0.5, z: 2}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 986422487}
   m_Father: {fileID: 1123176504}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1401,7 +1414,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 994927379}
-  - {fileID: 986422487}
   - {fileID: 1323954750}
   - {fileID: 2029084350}
   - {fileID: 537385204}
@@ -1442,7 +1454,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1123176504}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1323954751
 MonoBehaviour:
@@ -2202,7 +2214,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1123176504}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2029084351
 BoxCollider:
