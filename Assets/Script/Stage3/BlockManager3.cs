@@ -30,7 +30,11 @@ public class BlockManager3 : MonoBehaviour
         if (cb.chi == 1 && hb.ha ==1 && yb.ya ==1)
         {
             Debug.Log("ê≥âÅIÅI");
-            SceneManager.LoadScene("Omigoto");
+            SceneManager.LoadScene("Omigoto3");
+        }
+        if(cb.chi == -1 | hb.ha ==-1 | yb.ya ==-1)
+        {
+            SceneManager.LoadScene("Munen3");
         }
     }
 }

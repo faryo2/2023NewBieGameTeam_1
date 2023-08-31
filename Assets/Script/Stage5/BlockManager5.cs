@@ -38,7 +38,11 @@ public class BlockManager5 : MonoBehaviour
         if (cb1.chi1 == 1 && cb2.chi2 == 1 && hb.ha ==1 && yb1.ya1 ==1 && yb2.ya2 ==1)
         {
             Debug.Log("ê≥âÅIÅI");
-            SceneManager.LoadScene("Omigoto");
+            SceneManager.LoadScene("Omigoto5");
+        }
+        if (cb1.chi1 == -1 | cb2.chi2 == -1 | hb.ha == -1 | yb1.ya1 == -1 | yb2.ya2 == -1)
+        {
+            SceneManager.LoadScene("Munen5");
         }
     }
 }

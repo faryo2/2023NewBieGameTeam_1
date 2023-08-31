@@ -48,14 +48,14 @@ public class Chi2 : MonoBehaviour
             // 触れたobjの親を移動床にする
             other.transform.SetParent(transform);
             Debug.Log("不正解！！");
-            SceneManager.LoadScene("Munen");
+            chi2 = -1;
         }
         if (other.gameObject.CompareTag("Ya"))
         {
             // 触れたobjの親を移動床にする
             other.transform.SetParent(transform);
             Debug.Log("不正解！！");
-            SceneManager.LoadScene("Munen");
+            chi2 = -1;
         }
     }
 }

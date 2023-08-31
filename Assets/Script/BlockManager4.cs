@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor.SceneManagement;
 
-public class BoardManager : MonoBehaviour
+public class BlockManager4 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,18 +15,26 @@ public class BoardManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Chi cb;
+        GameObject cbobj = GameObject.Find("ChiBoard");
+        cb = cbobj.GetComponent<Chi>();
+
         Ha hb;
         GameObject hbobj = GameObject.Find("HaBoard");
         hb = hbobj.GetComponent<Ha>();
 
-        if (hb.ha ==1)
+        Ya yb;
+        GameObject ybobj = GameObject.Find("YaBoard");
+        yb = ybobj.GetComponent<Ya>();
+
+        if (cb.chi == 1 && hb.ha ==1 && yb.ya ==1)
         {
             Debug.Log("ê≥âÅIÅI");
-            SceneManager.LoadScene("Omigoto1");
+            SceneManager.LoadScene("Omigoto4");
         }
-        if(hb.ha == -1) 
+        if(cb.chi == -1 | hb.ha ==-1 | yb.ya ==-1)
         {
-            SceneManager.LoadScene("Munen1");
+            SceneManager.LoadScene("Munen4");
         }
     }
 }

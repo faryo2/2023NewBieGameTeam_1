@@ -48,14 +48,14 @@ public class Ya1 : MonoBehaviour
             // 触れたobjの親を移動床にする
             other.transform.SetParent(transform);
             Debug.Log("不正解！！");
-            SceneManager.LoadScene("Munen");
+            ya1 = -1;
         }
         if (other.gameObject.CompareTag("Chi"))
         {
             // 触れたobjの親を移動床にする
             other.transform.SetParent(transform);
             Debug.Log("不正解！！");
-            SceneManager.LoadScene("Munen");
+            ya1 = -1;
         }
     }
 }
